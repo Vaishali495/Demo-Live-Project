@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+.custom-button {
+    all: unset; /* Removes all default styles */
+    cursor: pointer; /* Keeps it clickable */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-button:hover,
+  .custom-button:focus,
+  .custom-button:active {
+    background: none !important; /* Removes hover background */
+    box-shadow: none !important; /* Removes focus shadow */
+    border: none !important; /* Ensures no border appears */
+  }
+  
